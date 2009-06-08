@@ -1,0 +1,38 @@
+It's tempting to think of Rack like...
+                                                      XX
+          XX       |                          ^    XXX
+            XXX ---+--------------------------+ XXX -+
+               XXX v                         XXX     |
+              |   XXXX   Rack App #1      XXX        |
+              +------ XXX ------------ XXX ----------+
+                   |     XXX        XXX       ^
+              +----+------- XXX  XXX ---------+------+
+              |    v          XXXX            |      |
+              |          R XXX pp XXXX               |
+              +-------- XXX --------- XXX -----------+
+                   | XXX                 XXX  ^
+              +-- XXX --------------------- XXX -----+
+               XXX                             XXX   |
+            XXX          Rack App #3              XXX
+          XX   ------------------------------------- XXXX
+                                                         XXX
+                                                            XXX
+                                                               XX
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

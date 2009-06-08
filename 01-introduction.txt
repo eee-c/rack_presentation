@@ -1,0 +1,42 @@
+
+
+
+                   Rack.call :type => 'Middleware'
+
+                             Chris Strom
+                             June 9, 2009
+                           B'More on Rails
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
