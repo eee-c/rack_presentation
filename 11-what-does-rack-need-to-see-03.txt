@@ -1,0 +1,34 @@
+And What Does Rack Need To See?
+
+# RackUp                               |                               ^
+# config.ru                      +-----+-------------------------------+-----+
+                                 |     v                               |     |
+use RackApp1                     |          |                     ^          |
+use RackApp2                     |    +-----+---------------------+-----+    |
+                                 |    |     v                     |     |    |
+=begin                           |    |         |              ^        |    |
+                                 |    |    +----+--------------+---+    |    |
+class RackApp1                   |    |    |    v              |   |    |    |
+  def initialize(app)            |    |    |                       |    |    |
+    ...                          |    |    |                       |    |    |
+    @app = app                   |    |    |           Rack App #3 |    |    |
+  end                            |    |    +-----------------------+    |    |
+                                 |    |                                 |    |
+  def call(env)                  |    |                     Rack App #2 |    |
+    ...                          |    +---------------------------------+    |
+    [200, {}, "content"]         |                                           |
+    ...                          |                               Rack App #1 |
+    @app.call(env)               +-------------------------------------------+
+    ...
+  end
+end
+
+=end
+
+run RackApp3
+
+
+
+
+
+

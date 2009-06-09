@@ -1,4 +1,4 @@
-How Do You Tell Rack To Do That?
+And What Does Rack Need To See?
 
 # RackUp                               |                               ^
 # config.ru                      +-----+-------------------------------+-----+
