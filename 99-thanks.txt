@@ -1,0 +1,14 @@
+Questions:
+
+    twitter: @eee_c
+
+
+More Info:
+
+    http://rack.rubyforge.org/
+
+    http://rack.rubyforge.org/doc/
+      "Other Documentation"
+
+    http://remi.org/
+      Some nice screencasts
