@@ -1,4 +1,4 @@
-It's tempting to think of Rack like...
+But Let's Not
                                                       XX
           XX       |                          ^    XXX
             XXX ---+--------------------------+ XXX -+

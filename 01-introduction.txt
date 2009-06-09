@@ -3,9 +3,10 @@
 
                    Rack.call :type => 'Middleware'
 
-                             Chris Strom
-                             June 9, 2009
-                           B'More on Rails
+                [200, {:content_type => "text/plain"},
+                           ["Chris Strom",
+                      Date.new(2009, 6, 9).to_s,
+                          "B'More on Rails"]
 
 
 
