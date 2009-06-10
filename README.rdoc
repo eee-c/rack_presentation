@@ -1,0 +1,24 @@
+= Rack Middleware Presentaion
+
+This is the entirety of the presentation that I made to the bmore-on-rails[http://meetup.com/bmore-on-rails] group on Tuesday, June 9, 2009.
+
+The "slides" are best viewed with <code>less -r</code>.  That kinda ruins the punchline, but as those who attened will attest, it wasn't that funny to begin with ;)
+
+I worked through the "slides" prior to the 90s, then switched to coding with the audience.  The result of that coding is available here as well.
+
+== Code
+
+[config.ru] the rackup file that ran the Sinatra applications + middleware
+[rack_fake_auth.rb] the "fake" authorization rack middleware
+[rack_fake_auth_spec.rb] the RSpec spec that drove the development of the middleware
+[sinatra_app_01.rb] a very simple Sinatra application ("premium" content)
+[sinatra_app_02.rb] another very simple Sinatra application ("free" content)
+[sinatra_app_03.rb] a Sinatra app that displays the slides in my presentation
+
+== Requirements
+
+To run the Rack application and middleware, you need the following installed:
+
+* Rack gem
+* Sinatra gem
+* cowsay unix command (no, really)
