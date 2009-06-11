@@ -1,8 +1,8 @@
-= Rack Middleware Presentaion
+= Rack Middleware Presentation
 
 This is the entirety of the presentation that I made to the bmore-on-rails[http://meetup.com/bmore-on-rails] group on Tuesday, June 9, 2009.
 
-The "slides" are best viewed with <code>less -r</code>.  That kinda ruins the punchline, but as those who attened will attest, it wasn't that funny to begin with ;)
+The "slides" are best viewed with <code>less -r</code>.  That kinda ruins the punchline, but as those who attended will attest, it wasn't that funny to begin with ;)
 
 I worked through the "slides" prior to the 90s, then switched to coding with the audience.  The result of that coding is available here as well.
 
